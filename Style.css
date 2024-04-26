@@ -1,0 +1,116 @@
+@font-face {
+  font-family: uniform;
+  src: url(Font/UniformBold.otf) format('OpenType');
+  }
+
+body {
+    background-color: #292a2e;
+    margin: 0;
+    padding: 0;
+  }
+
+  * {
+    font-family: uniform;
+  }
+
+  h1 {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 20px;
+    color: white;
+    text-align: center ;
+  }
+
+  .topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  
+  .topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  }
+  
+  .topnav a:hover {
+  background-color: #ddd;
+  color: rgb(27, 29, 34);
+  }
+  
+  .topnav a.active {
+  background-color: #FF7900;
+  color: white;
+  }
+  
+  .topnav-right {
+  float: right;
+  }
+
+  .custom-banner {
+    text-align: center;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .custom-banner img {
+    width: 100%; 
+    height: 275px; 
+    background-image: url('DJKarlBanner.png'); 
+    background-size: cover; 
+    background-position: center; 
+    margin-bottom: 20px;
+  
+  }
+
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .title {
+    color: rgb(255, 255, 255);
+  }
+  
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #FF7900;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
